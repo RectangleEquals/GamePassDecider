@@ -1,0 +1,29 @@
+{
+  "name": "gpd-server",
+  "version": "0.1.0",
+  "description": "Web tool to help your friends decide which Gamepass game to try next",
+  "main": "src/app.js",
+  "private": true,
+  "keywords": [
+    "Game",
+    "Pass",
+    "Gamepass",
+    "Game Pass",
+    "Xbox",
+    "Gaming",
+    "Utility"
+  ],
+  "author": "RectangleEquals@gmail.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "start": "node --require ./.env ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
